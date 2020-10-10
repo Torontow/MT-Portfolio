@@ -5,6 +5,7 @@ body {
     /* Typography */
     font-family: Kanit, sans-serif;
 }
+
 /* Background Image */
 .hero-image {
     background: url("./images/colors-sky.jpg"); /* https://www.deviantart.com/drakewilliams/art/The-Colors-Of-The-Sky-373707388 */
@@ -37,8 +38,10 @@ footer {
 
 footer {
     /* Box Model */
+    margin-top: 50px;
     padding-top: 20px;
-    padding-bottom: 20px; 
+    padding-bottom: 20px;
+
 }
 
 
