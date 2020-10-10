@@ -1,12 +1,5 @@
-* {
-	margin: 0;
-}
-body,
-html {
-    height: 100%;
-}
-
 body {
+    height: 100%;
     /* Visual */
     color: #baa440;
     /* Typography */
@@ -20,6 +13,7 @@ body {
     background-repeat: repeat; 
     background-size: cover;
 }
+
 nav, 
 footer {
     /* Visual */
@@ -29,15 +23,7 @@ footer {
     font-family: Syncopate, sans-serif;
 }
 
-img {
-    padding-bottom: 25px;
-}
-
-footer {
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
+/* Content Styling */
 #content {
     /* Visual */
     color: #7b2c2d;
@@ -48,6 +34,13 @@ footer {
     margin-bottom: 36px;
     padding: 25px;
 }
+
+footer {
+    /* Box Model */
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 
 
 
