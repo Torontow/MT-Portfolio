@@ -1,0 +1,53 @@
+* {
+	margin: 0;
+}
+body,
+html {
+    height: 100%;
+}
+
+body {
+    /* Visual */
+    color: #baa440;
+    /* Typography */
+    font-family: Kanit, sans-serif;
+}
+/* Background Image */
+.hero-image {
+    background: url("./images/colors-sky.jpg"); /* https://www.deviantart.com/drakewilliams/art/The-Colors-Of-The-Sky-373707388 */
+    background-color: #abcece; 
+    background-position: center; 
+    background-repeat: repeat; 
+    background-size: cover;
+}
+nav, 
+footer {
+    /* Visual */
+    background-color: midnightblue;
+    color: #baa440;
+    /* Typography */
+    font-family: Syncopate, sans-serif;
+}
+
+img {
+    padding-bottom: 25px;
+}
+
+footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#content {
+    /* Visual */
+    color: #7b2c2d;
+    background-color: #baa440;
+
+    /* Box Model */
+    margin-top: 36px;
+    margin-bottom: 36px;
+    padding: 25px;
+}
+
+
+
