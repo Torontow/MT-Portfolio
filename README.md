@@ -29,7 +29,8 @@ MIT License
 ## Credits
 
 Bootstrap (https://getbootstrap.com)
-W3 Schools
+W3 Schools (https://W3schools.com)
+Formspree   (https://formspree.com)
 
 ### MIT License 
 
