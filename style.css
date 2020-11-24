@@ -1,49 +1,31 @@
 body {
-    height: 100%;
-    /* Visual */
-    color: #baa440;
-    /* Typography */
-    font-family: Kanit, sans-serif;
+    background-image: url(images/bg-portfolio.png);
+    background-color:rgb(41,40,40);  
+    font-family: 'Grenze Gotisch', cursive;  
 }
 
-/* Background Image */
-.hero-image {
-    background: url("./images/colors-sky.jpg"); /* https://www.deviantart.com/drakewilliams/art/The-Colors-Of-The-Sky-373707388 */
-    background-color: #abcece; 
-    background-position: center; 
-    background-repeat: repeat; 
-    background-size: cover;
+h1 {
+    font-family: 'Amita', cursive;
 }
 
-nav, 
-footer {
-    /* Visual */
-    background-color: midnightblue;
-    color: #baa440;
-    /* Typography */
-    font-family: Syncopate, sans-serif;
+#header {
+    border: solid;
+    border-color: rgb(169, 182, 101);
+    border-radius: 15px;
+    background-color:rgb(41,40,40);
+    color: rgb(95, 125, 118);
 }
 
-/* Content Styling */
-#content {
-    /* Visual */
-    color: #7b2c2d;
-    background-color: #baa440;
-
-    /* Box Model */
-    margin-top: 36px;
-    margin-bottom: 36px;
-    padding: 25px;
-}
-
-footer {
-    /* Box Model */
-    margin-top: 50px;
+#footer {
     padding-top: 20px;
     padding-bottom: 20px;
+    text-align: center;
+    border: solid;
+    border-color: rgb(169, 182, 101);
+    border-radius: 15px;
+    background-color:rgb(41,40,40);
+    color: rgb(95, 125, 118);
 
 }
-
-
 
 
