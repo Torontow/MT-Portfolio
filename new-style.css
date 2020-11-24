@@ -1,0 +1,31 @@
+body {
+    background-image: url(images/bg-portfolio.png);
+    background-color:rgb(41,40,40);  
+    font-family: 'Grenze Gotisch', cursive;  
+}
+
+h1 {
+    font-family: 'Amita', cursive;
+}
+
+#header {
+    border: solid;
+    border-color: rgb(169, 182, 101);
+    border-radius: 15px;
+    background-color:rgb(41,40,40);
+    color: rgb(95, 125, 118);
+}
+
+#footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    border: solid;
+    border-color: rgb(169, 182, 101);
+    border-radius: 15px;
+    background-color:rgb(41,40,40);
+    color: rgb(95, 125, 118);
+
+}
+
+
