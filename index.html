@@ -7,12 +7,15 @@
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Amita:wght@400;700&family=Grenze+Gotisch:wght@400;500&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Amita:wght@400;700&family=Grenze+Gotisch:wght@400;500=Diplomata+SC&family=Syne+Mono&display=swap"
+        rel="stylesheet">
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <!-- My CSS -->
-    <link href="new-style.css" type="text/css" rel="stylesheet">
+    <link href="style.css" type="text/css" rel="stylesheet">
 
     <title>Michael Torontow</title>
 
@@ -21,7 +24,7 @@
 
 <body class="hero-image">
     <!-- Responsive Navbar -->
-    <div class="container">
+    <div class="container-fluid">
         <nav class="navbar navbar-expand-lg mt-4 shadow p-3 mb-5" id="header">
             <h1>Michael Torontow</h1>
             <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -39,21 +42,27 @@
     <!-- "About" Section With Photo-->
     <div class="container">
         <div class="row">
-          <div class="col-sm">
-            One of three columns
-          </div>
-          <div class="col-sm">
-            One of three columns
-          </div>
-          <div class="col-sm">
-            One of three columns
-          </div>
+            <div class="col-sm">
+                One of three columns
+            </div>
+            <div class="col-sm">
+                <div>                  
+                    <img src="images/iris.jpg" class="img-fluid" alt="Responsive image" id="iris">
+                </div>
+                <div class="p-4" id="gitHub-logo">
+                    <img src="images/GitHub.png" class="img-fluid" alt="Responsive image">
+                </div>
+
+            </div>
+            <div class="col-sm">
+                One of three columns
+            </div>
         </div>
-      </div>
+    </div>
     <!-- End About Section -->
 
     <!-- Footer -->
-    <div class="container mt-auto">
+    <div class="container-fluid">
         <footer id="footer">
             <h6>&copy; 2020 Michael Torontow</h6>
         </footer>
