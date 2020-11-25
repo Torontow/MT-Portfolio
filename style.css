@@ -1,3 +1,10 @@
+/* font-family: 'Big Shoulders Stencil Display', cursive;
+
+font-family: 'Comfortaa', cursive;
+
+font-family: 'Syne Mono', monospace; */
+
+
 body {
     background-image: url(images/bg-portfolio.png);
     background-color:rgb(41,40,40);  
@@ -5,15 +12,21 @@ body {
 }
 
 h1 {
-    font-family: 'Amita', cursive;
+    font-family: 'Comfortaa', cursive;
+}
+
+h3 {
+    font-family: 'Syne Mono', monospace;
+    padding-left: 20px;
+    color: rgb(5, 180, 142);
 }
 
 #header {
     border: solid;
-    border-color: rgb(169, 182, 101);
+    border-color: rgb(202, 206, 3);
     border-radius: 15px;
     background-color:rgb(41,40,40);
-    color: rgb(95, 125, 118);
+    color: rgb(218, 62, 1);
 }
 
 #footer {
