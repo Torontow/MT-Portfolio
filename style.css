@@ -1,19 +1,38 @@
 body {
     background-image: url(images/bg-portfolio.png);
-    background-color:rgb(41,40,40);  
+    background-color: rgb(41, 40, 40);
     font-family: 'Syne Mono', monospace;
 }
 
 h1 {
-    font-family: 'Amita', cursive;
+    font-family: 'Comfortaa', cursive;
+}
+
+h3 {
+    font-family: 'Syne Mono', monospace;
+    padding-left: 20px;
+    color: rgb(119, 204, 253);
+}
+
+h4 {
+    color: rgb(128, 86, 128)
+}
+
+img {
+    border: solid black 2px;
+}
+
+#link {
+    font-size: larger;
+    color: rgb(15, 185, 0);
 }
 
 #header {
     border: solid;
-    border-color: rgb(169, 182, 101);
+    border-color: rgb(202, 206, 3);
     border-radius: 15px;
-    background-color:rgb(41,40,40);
-    color: rgb(95, 125, 118);
+    background-color: rgb(41, 40, 40);
+    color: rgb(218, 62, 1);
 }
 
 #footer {
@@ -21,17 +40,29 @@ h1 {
     padding-bottom: 20px;
     text-align: center;
     border: solid;
-    border-color: rgb(169, 182, 101);
+    border-color: rgb(202, 206, 3);
     border-radius: 15px;
-    background-color:rgb(41,40,40);
+    background-color: rgb(41, 40, 40);
     color: rgb(95, 125, 118);
 }
 
 #iris {
     border-radius: 50%;
+    size: 75%;
 }
 
-#gitHub-logo {
+#gitHub-logo-div {
     text-align: center;
 }
 
+#github-logo {
+    border-radius: 50%;
+}
+
+#project {
+    margin-bottom: 20px;
+}
+
+#contact {
+    margin-top: 50px;
+}
