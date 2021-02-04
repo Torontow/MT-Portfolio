@@ -1,26 +1,47 @@
-# Michael Torontow's Portflio
+# Michael Torontow's Portfolio
 
-![Final Product] "https://torontow.github.io/MT-Portfolio.github.io/"
+![Site Screenshot](images/Screens-shot.png)
 
-## The Project
+## Description
 
-The client requested a Portfolio site with a quick biography, a few photos from his career, and a contact page. 
+This is my official web dev portfolio page.
 
-Given that he is an actor and many casting directors these days do their job while on the go, it is important that the entire site be responsive for mobile viewing. The page was intended to be simple in style and appearance. 
+Using Bootstraps facility for creating responsive sites, I made this readable on all types of devices. It features a few of my best achievements in web design, and also links to my actor website since people searching for me may not get to where they think they ought to be!
 
-### The Process
+## TABLE OF CONTENTS
 
-I knew I would be using Bootstrap (https://getbootstrap.com/), so I began by simply coding 'shell' pages for the index, the contact, and the portfolio of photos. While doing so, I essentially wrote a shopping list of things to search for on Bootstrap, which I wound up using (with adaptations, of course) for the navbar, grid layouts, and images. Once I was happy with the bones of the project, I validated all the HTML before adding some supplemental CSS of my own.
-
-Now, it was initially expected, I believe, that the site would have a simple colour scheme of a grey, patterned background with some sea-foam green and grey highlights, but it reminded me too much of my bedroom when I was an 11-year-old, so I decided to go out on a limb and add styling that more closely matched the client's personality. Since all of my personal touches exist in the external CSS file, it can easily be easily changed. 
+1. [Installation](#Installation)
+2. [Usage](#Usage)
+3. [Contributing](#Contributing)
+4. [Tests](#Tests)
+5. [Questions/Contact](#Questions/Contact)
+6. [License](#License)
+7. [Credits](#Credits)
 
 ## Installation
 
-Simply navigate to the site URL: "https://torontow.github.io/MT-Portfolio.github.io/"
+Simply navigate to [https://torontow.github.io/MT-Portfolio/](https://torontow.github.io/MT-Portfolio/).
 
 ## Usage
 
-Simply use the links in the navigation bar to click through to the desired page in the site. If using a mobile device, tap on the button on the top-right corner of the screen to reveal navigation links. 
+Look around and see what you can click!
+
+## Contributing
+
+If you would like to contribute to this project, please contact me with the information below. You are incouraged to follow the [Contributor Covenant](https://www.contributor-covenant.org/). 
+
+## Tests
+
+There are no included tests for this project. Given that this was my first time working with handlebars.js, I started by creating an index.html to design the view of the site, which I then translated over to the various handlebars files and partials. 
+
+## Questions/Contact
+
+GitHub Profile: [https://github.com/Torontow](https://github.com/Torontow)
+Email: [mtorontow0@gmail.com](mailto:mtorontow0@gmail.com)
+
+## License
+
+This project is covered under MIT license.
 
 ## License
 
@@ -30,21 +51,7 @@ MIT License
 
 Bootstrap (https://getbootstrap.com)
 W3 Schools (https://W3schools.com)
-Formspree   (https://formspree.com)
-
-### MIT License 
-
-#### Permissions
-
-Commercial use
-Modification
-Distribution
-Private use
-
-#### Limitations:
-
-Liability
-Warranty 
+Google Fonts (https://googlefonts.com)
 
 
  
