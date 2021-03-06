@@ -7,13 +7,12 @@ body {
 
 h1 {
   font-family: 'Montserrat Subrayada', sans-serif;
-  font-size: 5em
+  font-size: 6em
 }
 
 h2 {
   color: rgb(15, 185, 0);
   text-shadow: 2px 2px black;
-
 }
 
 h3 {
@@ -35,11 +34,13 @@ h5 {
 p {
   text-shadow: 2px 2px black;
 }
+
 img {
   border: solid black 2px;
-  width: 260px;
+  width: 100px;
   height: auto
 }
+
 i {
   color: rgb(15, 185, 0);
 }
@@ -82,9 +83,17 @@ img.cont {
   width: 60px;
   height: auto
 }
+
+.justCenter {
+  justify-content: center;
+} 
+
 #iris {
   border-radius: 50%;
-  width: 100px;
+  border-color: rgb(69, 88, 35);
+  border-style:dotted;
+  border-width: 5px;
+  width: 75px;
   height: auto
 }
 
@@ -101,5 +110,8 @@ img.cont {
 }
 
 #wd {
-  font-size: 2rem;
+  font-size: 2.5rem;
+  font-family: 'Montserrat Subrayada', sans-serif;
+  text-align: end;
+  color: rgb(119, 204, 253);
 }
