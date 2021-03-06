@@ -1,0 +1,49 @@
+[
+  {
+    "id": 1,
+    "title": "Window Shoppin",
+    "image": "./images/window-shoppin-img.gif",
+    "alt": "Window Shoppin gif",
+    "description": "A collaborative project using several technologies, third-party API's, and web scraping, this application allows users to keep track of items they have seen online they may not want to buy right away, but watch for a better price.",
+    "github-rep": "https://github.com/keithyyy/WindowShoppin",
+    "link": "https://window-shoppin.herokuapp.com"
+  },
+  {
+    "id": 2,
+    "title": "Eat-Da-Burger",
+    "image": "./images/burger.png",
+    "alt": "Burger Image",
+    "description": "Featuring Handlebars, this allows users to keep track of burgers they have seen and want to try, and take note of when they have tried them.",
+    "github-rep": "https://github.com/Torontow/MT-Burger",
+    "link": "https://aqueous-reaches-61188.herokuapp.com/"
+  },
+  {
+    "id": 3,
+    "title": "Password Generator",
+    "image": "./images/pass-gen-ss.png",
+    "alt": "Password Generator Screenshot",
+    "description": "An application that enables users to generate highly secure passwords based on personal specifications of length and included characters.",
+    "github-rep": "https://github.com/Torontow/MT-Password_Generator",
+    "link": "https://torontow.github.io/MT-Password_Generator/"
+  },
+  {
+    "id": 4,
+    "title": "Employee Directory",
+    "image": "./images/et-demo.gif",
+    "alt": "Employee Directory gif",
+    "description": "Using React.js and a random user API to provide sampling, this application allows users to instantly search through and sort a list of people, their images, contact information, and date of birth. ",
+    "github-rep": "https://github.com/Torontow/MT-Employee-Directory",
+    "link": "https://torontow.github.io/MT-Employee-Directory/"
+  },
+  {
+    "id": 5,
+    "title": "Work Day Scheduler",
+    "image": "./images/et-demo.gif",
+    "alt": "Employee Directory gif",
+    "description": "Using React.js and a random user API to provide sampling, this application allows users to instantly search through and sort a list of people, their images, contact information, and date of birth. ",
+    "github-rep": "https://github.com/Torontow/MT-Employee-Directory",
+    "link": "https://torontow.github.io/MT-Employee-Directory/"
+  }
+
+
+]
