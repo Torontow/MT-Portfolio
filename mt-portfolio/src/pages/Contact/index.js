@@ -1,37 +1,34 @@
 import React from "react";
+import gitHubLogo from "../../images/gitHubLogo.png";
+import linkedinLogo from "../../images/linkedinLogo.png";
 
 function Contact() {
   return (
-    <>
+    <div>
       <h2>Contact</h2>
-      <a href="https://github.com/Torontow" target="_blank">
+      <a href="https://github.com/Torontow" target="_blank" rel="noreferrer">
         <img
-          src="images/GitHub.png"
-          class="img-fluid cont"
-          alt="Responsive image"
-          id="github-logo"
+          src={gitHubLogo}
+          className="img-fluid rounded-circle"
+          alt="Git Hub Logo"
         />
       </a>
       <a
         href="https://www.linkedin.com/in/michael-torontow-67345125/"
         target="_blank"
+        rel="noreferrer"
       >
-        <img src="images/LI-In-Bug.png" class="img-fluid cont" />
+        <img
+          src={linkedinLogo}
+          className="img-fluid rounded-circle"
+          alt="LinkedIn Logo"
+        />
       </a>
       <h4>Phone: 647-929-2341</h4>
       <h4>
         Email: <a href="mailto:mtorontow0@gmail.com">mtorontow0@gmail.com</a>
       </h4>
-      <h2>Spy the Resume...</h2>
-      <a href="MT-Web-Resume.pdf" download="MT-Web-Resume.pdf">
-        <img
-          src="images/iris.jpg"
-          class="img-fluid"
-          alt="Responsive image"
-          id="iris"
-        />
-      </a>
-    </>
+    </div>
   );
 }
 
