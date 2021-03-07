@@ -1,0 +1,23 @@
+img.logo {
+    width: 90px;
+    height: auto;
+    margin-top: 20px;
+    border-color:grey;
+    box-shadow: 0 0 10px black;
+    margin-bottom: 18px;
+    border-radius: 50%;
+}
+
+h2 {
+    font-family: 'Montserrat Subrayada', sans-serif;
+    color: rgb(15, 185, 0);
+    text-shadow: 0 0 15px rgb(30, 65, 17);
+}
+
+h4 {
+    color: rgb(221, 0, 0) 
+}
+
+.contact {
+    color: rgb(56, 56, 56)
+}
