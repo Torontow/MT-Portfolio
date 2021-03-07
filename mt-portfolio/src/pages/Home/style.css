@@ -1,0 +1,16 @@
+.blockquote-footer {
+  text-shadow: 1px 1px black
+}
+
+.card {
+  background-color: rgb(134, 133, 133, 0.35);
+  border: solid black;
+  margin-top: 50px;
+}
+
+.title {
+  font-family: 'Montserrat Subrayada', sans-serif;
+  font-size: 0.90em;
+  color: navy;
+  text-shadow: 0 0 20px rgb(0, 195, 255)
+}

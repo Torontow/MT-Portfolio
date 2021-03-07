@@ -5,6 +5,7 @@ import Contact from "./pages/Contact";
 import Container from "./components/Container";
 import Row from "./components/Row";
 import Col from "./components/Col";
+import Home from "./pages/Home"
 import Header from "./components/Header";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
@@ -17,11 +18,12 @@ function App() {
         <Header />
         <Container>
           <Row>
-            <Col size="3">
+            <Col size="2">
               <Navbar />
               {/* <Route exact path="/" component={Home} /> */}
             </Col>
-            <Col size="9">
+            <Col size="10">
+              <Route exact path="/" component={Home} />
               <Route exact path="/greatesthits" component={GreatestHits} />
               <Route exact path="/contact" component={Contact} />
             </Col>
