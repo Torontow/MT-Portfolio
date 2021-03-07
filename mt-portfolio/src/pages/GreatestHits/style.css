@@ -1,0 +1,15 @@
+img.project {
+    border: solid black 2px;
+    width: 300px;
+    height: auto
+}
+
+h3 {
+  color: rgb(162, 211, 248);
+  text-shadow: 0 0 20px black
+}
+
+p {
+  text-shadow: 2px 2px black;
+  font-size: 1.25em
+}
